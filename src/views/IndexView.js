@@ -170,21 +170,6 @@ class IndexView extends React.Component {
                 <div className="af-class-button-wrap"><a href="laesa-projects.html" className="af-class-button w-button">Learn More</a><a href="#" className="af-class-button af-class-contact w-button">Get in Touch</a></div>
               </div>
             </div>
-            <div className="af-class-section af-class-wide">
-              <div data-w-id="8cf47482-19f1-1f52-25ba-910a60bc91de" style={{WebkitTransform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', MozTransform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', msTransform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', transform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', opacity: 0}} className="af-class-wrap">
-                <h2>Get updates from LAESA-SHPE</h2>
-                <p>New scholarships, discounts and free lessons</p>
-                <div className="af-class-form-block w-form">
-                  <form id="email-form" name="email-form" data-name="Email Form" className="af-class-form-2"><input type="email" className="af-class-input w-input" maxLength={256} name="Email" data-name="Email" laesa-email-socket="email" placeholder="Enter your email" id="Email-3" required /><input type="submit" defaultValue="Subscribe" data-wait="Please wait..." className="af-class-button af-class-form-button w-button" /></form>
-                  <div className="w-form-done">
-                    <div>Thank you! Your submission has been received!</div>
-                  </div>
-                  <div className="w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="af-class-footer"><img src="images/SHPE_logo_FullColor.png" width={345} alt className="af-class-image-9" />
               <div className="af-class-wrap">
                 <div className="af-class-footer-list"><a href="#" className="af-class-footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" className="af-class-footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" className="af-class-footer-link">Facebook</a><a href="#" className="af-class-footer-link">LinkedIn</a><a href="image-license-info.html" className="af-class-footer-link">Image License Info</a><a href="http://webflow.com" className="af-class-footer-link">Powered by Webflow</a></div>
