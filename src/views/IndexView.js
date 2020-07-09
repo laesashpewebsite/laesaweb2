@@ -167,7 +167,7 @@ class IndexView extends React.Component {
             <div id="download" className="af-class-section af-class-wide af-class-purple">
               <div data-w-id="376e2a1f-ec70-0dab-11ea-b1863101e37b" style={{WebkitTransform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', MozTransform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', msTransform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', transform: 'translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', opacity: 0}} className="af-class-wrap">
                 <h2 className="af-class-heading-6">Ready to get started with LAESA Projects?</h2>
-                <div className="af-class-button-wrap"><a href="#" className="af-class-button w-button">Learn More</a><a href="#" className="af-class-button af-class-contact w-button">Get in Touch</a></div>
+                <div className="af-class-button-wrap"><a href="laesa-projects.html" className="af-class-button w-button">Learn More</a><a href="#" className="af-class-button af-class-contact w-button">Get in Touch</a></div>
               </div>
             </div>
             <div className="af-class-section af-class-wide">
@@ -175,7 +175,7 @@ class IndexView extends React.Component {
                 <h2>Get updates from LAESA-SHPE</h2>
                 <p>New scholarships, discounts and free lessons</p>
                 <div className="af-class-form-block w-form">
-                  <form id="email-form" name="email-form" data-name="Email Form" className="af-class-form-2"><input type="text" className="af-class-input w-input" maxLength={256} name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required /><input type="submit" defaultValue="Subscribe" data-wait="Please wait..." className="af-class-button af-class-form-button w-button" /></form>
+                  <form id="email-form" name="email-form" data-name="Email Form" className="af-class-form-2"><input type="email" className="af-class-input w-input" maxLength={256} name="Email" data-name="Email" laesa-email-socket="email" placeholder="Enter your email" id="Email-3" required /><input type="submit" defaultValue="Subscribe" data-wait="Please wait..." className="af-class-button af-class-form-button w-button" /></form>
                   <div className="w-form-done">
                     <div>Thank you! Your submission has been received!</div>
                   </div>

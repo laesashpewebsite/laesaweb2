@@ -73,7 +73,7 @@ class LoginView extends React.Component {
               </div>
             </header>
             <div className="w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" className="af-class-form-4"><label htmlFor="name">Email</label><input type="email" className="w-input" maxLength={256} name="name" data-name="Name" placeholder id="email" /><label htmlFor="email">Password</label><input type="password" className="w-input" maxLength={256} name="email" data-name="Email" placeholder id="password" required /><input type="submit" defaultValue="Login" data-wait="Please wait..." className="w-button" /></form>
+              <form id="email-form" name="email-form" data-name="Email Form" laesa-socket="Login" className="af-class-form-4"><label htmlFor="Username">Username</label><input type="email" className="w-input" maxLength={256} name="Username" data-name="Username" placeholder id="Username" required /><label htmlFor="email">Password</label><input type="password" className="w-input" maxLength={256} name="email" data-name="Email" placeholder id="password" required /><input type="submit" defaultValue="Login" data-wait="Please wait..." className="w-button" /></form>
               <div className="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
