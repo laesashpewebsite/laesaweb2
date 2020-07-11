@@ -9,7 +9,7 @@ import "./scripts";
 import "./styles";
 ReactDOM.render(
   <Router basename="/LAESA">
-    <App></App>
+    <App />
   </Router>,
   document.getElementById("root")
 );
