@@ -73,21 +73,13 @@ class LaesaProjectsView extends React.Component {
               </div>
             </header>
             <div className="w-container">
-              <h1 className="af-class-heading-26">LAESA Projects</h1>
+              <h1 className="af-class-main-heading">LAESA Projects</h1>
             </div>
             <div>
               <div className="w-container">
                 <p><strong>LAESA-SHPE has always excelled at preparing our members academically and professionally. LAESA Projects is one of our new programs that we are introducing to LEASA. Our goal is for our members to gain experience that you cannot achieve in a classrrom environment by creating meaningful projects that could benefit everyone! This website is an example of what can come out of it. You will have the oportunity to learn how to work with teammates and engineer your project as you see fit. This is also becomes a great resume booster and a topic to talk about with recruitters at conferences! So join one of the current projects that are being run or propose your own and pitch to members of the club to join in on the project!</strong></p>
               </div>
             </div>
-            <header id="hero" className="af-class-hero">
-              <div className="af-class-flex-container w-container">
-                <div>
-                  <h1>Hero</h1>
-                  <p>This <strong>hero</strong> is built with a <strong>flex</strong> layout, so the content will grow or shrink to fit the space available in its container. <br />‍<br />To change this section’s background, select the “Hero Section,” then scroll to the <strong>background</strong> section of the Style panel and add a color, image, or gradient.</p><a href="#" className="w-button">Button text</a></div>
-                <div className="af-class-hero-image-mask"><img src="https://uploads-ssl.webflow.com/5db1c76aadcfe25e881680fa/5db86dc421496616bf357c25_placeholder.svg" alt className="af-class-hero-image-2" /></div>
-              </div>
-            </header>
             <section id="feature-section" className="af-class-feature-section-3">
               <div className="af-class-flex-container w-container">
                 <div className="af-class-feature-image-mask"><img src="https://uploads-ssl.webflow.com/5db1c76aadcfe25e881680fa/5db86dc421496616bf357c25_placeholder.svg" alt className="af-class-feature-image-2" /></div>
@@ -96,7 +88,15 @@ class LaesaProjectsView extends React.Component {
                   <p><strong>We are currently looking for anyone interested in frontend or backend development. You do not need any web experience to join</strong></p><a href="#" className="w-button">Join Team</a></div>
               </div>
             </section>
-            <div className="af-class-footer"><img src="images/SHPE_logo_FullColor.png" width={345} alt className="af-class-image-9" />
+            <header id="hero" className="af-class-hero">
+              <div className="af-class-flex-container w-container">
+                <div>
+                  <h1>Hero</h1>
+                  <p>This <strong>hero</strong> is built with a <strong>flex</strong> layout, so the content will grow or shrink to fit the space available in its container. <br />‍<br />To change this section’s background, select the “Hero Section,” then scroll to the <strong>background</strong> section of the Style panel and add a color, image, or gradient.</p><a href="#" className="w-button">Button text</a></div>
+                <div className="af-class-hero-image-mask"><img src="https://uploads-ssl.webflow.com/5db1c76aadcfe25e881680fa/5db86dc421496616bf357c25_placeholder.svg" alt className="af-class-hero-image-2" /></div>
+              </div>
+            </header>
+            <div className="af-class-footer"><img src="images/SHPE_logo_horiz_City-College_CMYK.png" width={530} srcSet="images/SHPE_logo_horiz_City-College_CMYK-p-800.png 800w, images/SHPE_logo_horiz_City-College_CMYK-p-1080.png 1080w, images/SHPE_logo_horiz_City-College_CMYK-p-1600.png 1600w, images/SHPE_logo_horiz_City-College_CMYK-p-2000.png 2000w, images/SHPE_logo_horiz_City-College_CMYK.png 3781w" sizes="(max-width: 767px) 100vw, 530px" alt className="af-class-shpe-logo" />
               <div className="af-class-wrap">
                 <div className="af-class-footer-list"><a href="#" className="af-class-footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" className="af-class-footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" className="af-class-footer-link">Facebook</a><a href="#" className="af-class-footer-link">LinkedIn</a><a href="image-license-info.html" className="af-class-footer-link">Image License Info</a><a href="http://webflow.com" className="af-class-footer-link">Powered by Webflow</a></div>
               </div>

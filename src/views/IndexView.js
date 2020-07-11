@@ -60,11 +60,11 @@ class IndexView extends React.Component {
         <span className="af-view">
           <div className="af-class-body">
             <header id="nav" className="af-class-sticky-nav-2">
-              <div data-collapse="medium" data-animation="default" data-duration={400} data-doc-height={1} role="banner" className="af-class-nav w-nav">
+              <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-nav w-nav">
                 <div className="af-class-nav-inner">
                   <div className="af-class-nav-logo-wrap"><a href="index.html" aria-current="page" className="af-class-brand w-nav-brand w--current"><img src="images/LAESA_LOGO.png" width={175} alt className="af-class-image-logo" /></a></div>
                   <div className="af-class-nav-menu-wrap">
-                    <nav role="navigation" className="af-class-nav-menu-1 w-nav-menu"><a href="index.html" aria-current="page" className="af-class-nav-link w-nav-link w--current">About</a><a href="members.html" className="af-class-nav-link w-nav-link">Members</a><a href="pced.html" id="eboard" className="af-class-nav-link af-class-eboard-link w-nav-link">Eboard</a><a href="events/events.html" className="af-class-nav-link w-nav-link">Events</a><a href="calendar.html" className="af-class-nav-link w-nav-link">Calendar</a><a href="login.html" className="af-class-nav-link w-nav-link">Login</a></nav>
+                    <nav role="navigation" className="af-class-nav-menu-1 w-nav-menu"><a href="index.html" aria-current="page" className="af-class-nav-link w-nav-link w--current">About</a><a href="members.html" target="_blank" className="af-class-nav-link w-nav-link">Members</a><a href="pced.html" id="eboard" target="_blank" className="af-class-nav-link af-class-eboard-link w-nav-link">Eboard</a><a href="events/events.html" className="af-class-nav-link w-nav-link">Events</a><a href="calendar.html" className="af-class-nav-link w-nav-link">Calendar</a><a href="login.html" className="af-class-nav-link w-nav-link">Login</a></nav>
                     <div className="af-class-menu-button w-nav-button">
                       <div className="af-class-menu-icon w-icon-nav-menu" />
                     </div>
@@ -74,7 +74,7 @@ class IndexView extends React.Component {
             </header>
             <div className="af-class-section af-class-wide af-class-img">
               <div id="features" className="af-class-feature-wrap" />
-              <h2 className="af-class-heading-7">Meet Our Familia!</h2><img src="images/Convention-Group.jpg" width={1026} srcSet="images/Convention-Group-p-500.jpeg 500w, images/Convention-Group-p-1080.jpeg 1080w, images/Convention-Group-p-1600.jpeg 1600w, images/Convention-Group-p-2000.jpeg 2000w, images/Convention-Group-p-2600.jpeg 2600w, images/Convention-Group-p-3200.jpeg 3200w, images/Convention-Group.jpg 4032w" sizes="100vw" alt className="af-class-image-12" />
+              <h2 className="af-class-main-heading">Meet Meet Our Familia!!</h2><img src="images/Convention-Group.jpg" width={1026} srcSet="images/Convention-Group-p-500.jpeg 500w, images/Convention-Group-p-1080.jpeg 1080w, images/Convention-Group-p-1600.jpeg 1600w, images/Convention-Group-p-2000.jpeg 2000w, images/Convention-Group-p-2600.jpeg 2600w, images/Convention-Group-p-3200.jpeg 3200w, images/Convention-Group.jpg 4032w" sizes="100vw" alt className="af-class-image-12" />
               <div id="features" className="af-class-feature-wrap" />
             </div>
             <div className="af-class-section">
@@ -170,7 +170,7 @@ class IndexView extends React.Component {
                 <div className="af-class-button-wrap"><a href="laesa-projects.html" className="af-class-button w-button">Learn More</a><a href="#" className="af-class-button af-class-contact w-button">Get in Touch</a></div>
               </div>
             </div>
-            <div className="af-class-footer"><img src="images/SHPE_logo_FullColor.png" width={345} alt className="af-class-image-9" />
+            <div className="af-class-footer"><img src="images/SHPE_logo_horiz_City-College_CMYK.png" width={530} srcSet="images/SHPE_logo_horiz_City-College_CMYK-p-800.png 800w, images/SHPE_logo_horiz_City-College_CMYK-p-1080.png 1080w, images/SHPE_logo_horiz_City-College_CMYK-p-1600.png 1600w, images/SHPE_logo_horiz_City-College_CMYK-p-2000.png 2000w, images/SHPE_logo_horiz_City-College_CMYK.png 3781w" sizes="(max-width: 479px) 58vw, (max-width: 767px) 43vw, 49vw" alt className="af-class-shpe-logo" />
               <div className="af-class-wrap">
                 <div className="af-class-footer-list"><a href="#" className="af-class-footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" className="af-class-footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" className="af-class-footer-link">Facebook</a><a href="#" className="af-class-footer-link">LinkedIn</a><a href="image-license-info.html" className="af-class-footer-link">Image License Info</a><a href="http://webflow.com" className="af-class-footer-link">Powered by Webflow</a></div>
               </div>

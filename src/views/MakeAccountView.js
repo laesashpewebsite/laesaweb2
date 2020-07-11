@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
+import RegisterView from './RegisterView'
 
 const scripts = [
   fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ee2db0a9ed06b47877b408e").then(body => body.text()),
@@ -47,7 +48,7 @@ class MakeAccountView extends React.Component {
 
   render() {
     const proxies = Controller !== MakeAccountView ? transformProxies(this.props.children) : {
-
+      'register': [],
     }
 
     return (
@@ -73,12 +74,17 @@ class MakeAccountView extends React.Component {
               </div>
             </header>
             <div className="w-form">
-              <form id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" laesa-register-socket="register" className="af-class-form-3"><label htmlFor="First-Name">First Name</label><input type="text" className="w-input" maxLength={256} name="First-Name" data-name="First Name" placeholder="First Name " id="First-Name" /><label htmlFor="Last-Name">Last Name</label><input type="text" className="w-input" maxLength={256} name="Last-Name" data-name="Last Name" placeholder="Las Name" id="Last-Name" required /><label htmlFor="email">Email Address</label><input type="email" className="w-input" maxLength={256} name="email" data-name="Email" placeholder="Email" id="email" required /><label htmlFor="Password">Password</label><input type="password" className="w-input" maxLength={256} name="Password" data-name="Password" placeholder="Password" id="Password" required /><label htmlFor="Verify-Password">Verify Password</label><input type="password" className="w-input" maxLength={256} name="Verify-Password" data-name="Verify Password" placeholder="Verify Password" id="Verify-Password" required /><input type="submit" defaultValue="Submit" data-wait="Please wait..." className="w-button" /></form>
+              <RegisterView.Controller-af-sock-register />
               <div className="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
               <div className="w-form-fail">
                 <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+            <div className="af-class-footer"><img src="images/SHPE_logo_horiz_City-College_CMYK.png" width={547} srcSet="images/SHPE_logo_horiz_City-College_CMYK-p-800.png 800w, images/SHPE_logo_horiz_City-College_CMYK-p-1080.png 1080w, images/SHPE_logo_horiz_City-College_CMYK-p-1600.png 1600w, images/SHPE_logo_horiz_City-College_CMYK-p-2000.png 2000w, images/SHPE_logo_horiz_City-College_CMYK.png 3781w" sizes="(max-width: 479px) 55vw, (max-width: 767px) 43vw, 48vw" alt className="af-class-shpe-logo" />
+              <div className="af-class-wrap">
+                <div className="af-class-footer-list"><a href="#" className="af-class-footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" className="af-class-footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" className="af-class-footer-link">Facebook</a><a href="#" className="af-class-footer-link">LinkedIn</a><a href="image-license-info.html" className="af-class-footer-link">Image License Info</a><a href="http://webflow.com" className="af-class-footer-link">Powered by Webflow</a></div>
               </div>
             </div>
             {/* [if lte IE 9]><![endif] */}

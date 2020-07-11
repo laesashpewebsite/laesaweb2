@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
+import LoginView from './LoginView'
 
 const scripts = [
   fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ee2db0a9ed06b47877b408e").then(body => body.text()),
@@ -47,7 +48,7 @@ class LoginView extends React.Component {
 
   render() {
     const proxies = Controller !== LoginView ? transformProxies(this.props.children) : {
-
+      'login': [],
     }
 
     return (
@@ -58,7 +59,7 @@ class LoginView extends React.Component {
           @import url(/css/laesa-shpe.webflow.css);
         ` }} />
         <span className="af-view">
-          <div>
+          <div className="af-class-body-3">
             <header id="nav" className="af-class-sticky-nav-2">
               <div data-collapse="medium" data-animation="default" data-duration={400} data-doc-height={1} role="banner" className="af-class-nav w-nav">
                 <div className="af-class-nav-inner">
@@ -73,7 +74,7 @@ class LoginView extends React.Component {
               </div>
             </header>
             <div className="w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" laesa-socket="Login" className="af-class-form-4"><label htmlFor="Username">Username</label><input type="email" className="w-input" maxLength={256} name="Username" data-name="Username" placeholder id="Username" required /><label htmlFor="email">Password</label><input type="password" className="w-input" maxLength={256} name="email" data-name="Email" placeholder id="password" required /><input type="submit" defaultValue="Login" data-wait="Please wait..." className="w-button" /></form>
+              <LoginView.Controller-af-sock-login />
               <div className="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
@@ -81,6 +82,11 @@ class LoginView extends React.Component {
                 <div>Oops! Something went wrong while submitting the form.</div>
               </div>
             </div><a href="make-account.html" className="af-class-button-2 w-button">Make Account</a>
+            <div className="af-class-footer"><img src="images/SHPE_logo_horiz_City-College_CMYK.png" width={547} srcSet="images/SHPE_logo_horiz_City-College_CMYK-p-800.png 800w, images/SHPE_logo_horiz_City-College_CMYK-p-1080.png 1080w, images/SHPE_logo_horiz_City-College_CMYK-p-1600.png 1600w, images/SHPE_logo_horiz_City-College_CMYK-p-2000.png 2000w, images/SHPE_logo_horiz_City-College_CMYK.png 3781w" sizes="(max-width: 479px) 55vw, (max-width: 767px) 43vw, 48vw" alt className="af-class-shpe-logo" />
+              <div className="af-class-wrap">
+                <div className="af-class-footer-list"><a href="#" className="af-class-footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" className="af-class-footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" className="af-class-footer-link">Facebook</a><a href="#" className="af-class-footer-link">LinkedIn</a><a href="image-license-info.html" className="af-class-footer-link">Image License Info</a><a href="http://webflow.com" className="af-class-footer-link">Powered by Webflow</a></div>
+              </div>
+            </div>
             {/* [if lte IE 9]><![endif] */}
           </div>
         </span>

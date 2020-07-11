@@ -1,7 +1,18 @@
 /* eslint-disable */
 
 const styles = [
-
+  {
+    type: 'href',
+    body: '/css/normalize.css',
+  },
+  {
+    type: 'href',
+    body: '/css/webflow.css',
+  },
+  {
+    type: 'href',
+    body: '/css/laesa-shpe.webflow.css',
+  },
 ]
 
 const loadingStyles = styles.map((style) => {

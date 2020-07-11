@@ -76,7 +76,7 @@ class PcedView extends React.Component {
               <div className="af-class-mask-3 w-slider-mask">
                 <div className="af-class-eboard-20-21 w-slide">
                   <div className="af-class-container-4 w-container">
-                    <h2 className="af-class-heading-31">Executive Board 2020 - 2021</h2>
+                    <h2 className="af-class-main-heading">Executive Board 2020 - 2021</h2>
                   </div>
                   <div className="af-class-container-5 w-container">
                     <div className="af-class-div-block-13"><img src="images/Richard.png" width={303} alt className="af-class-image-15" />
@@ -100,7 +100,7 @@ class PcedView extends React.Component {
                     <p className="af-class-paragraph-8"><strong>Hello, my name is Mauricio Mino. I am currently a senior studying mechanical Engineering. This year my Familia has elected me as External Vice President and I am honored. My personal experience with LAESA has helped me experience a home away from home. I am surrounded by individuals, who like me, seek to not just represent mi gente but uplift my community. I advocate for immigration reforms, strive for academic excellence and extend a hand to my peers so we all eat. If im not in the books you can catch me riding through the streets of NYC on my bike, if you can keep up that is.</strong></p>
                   </div>
                   <div className="w-container">
-                    <div className="af-class-div-block-13"><img src="images/Estefany_Gomez.jpg" width={303} srcSet="images/Estefany_Gomez-p-500.jpeg 500w, images/Estefany_Gomez-p-800.jpeg 800w, images/Estefany_Gomez-p-1080.jpeg 1080w, images/Estefany_Gomez.jpg 1565w" sizes="(max-width: 479px) 100vw, 303px" alt className="af-class-image-15" />
+                    <div className="af-class-div-block-13"><img src="images/Estefany_Gomez.jpg" width={303} srcSet="images/Estefany_Gomez-p-500.jpeg 500w, images/Estefany_Gomez-p-800.jpeg 800w, images/Estefany_Gomez-p-1080.jpeg 1080w, images/Estefany_Gomez.jpg 1565w" sizes="(max-width: 479px) 100vw, 302.9861145019531px" alt className="af-class-image-15" />
                       <h3 className="af-class-heading-30">Estefany Gomez</h3>
                       <h4 className="af-class-heading-30">Secretary</h4>
                     </div>
@@ -116,10 +116,10 @@ class PcedView extends React.Component {
                 </div>
                 <div className="af-class-eboard-19-20 w-slide">
                   <div className="af-class-container-4 w-container">
-                    <h2 className="af-class-heading-31">Executive Board 2019 - 2020</h2>
+                    <h2 className="af-class-main-heading">Executive Board 2019 - 2020</h2>
                   </div>
                   <div className="w-container">
-                    <div className="af-class-div-block-13"><img src="images/Luis.png" width={303} srcSet="images/Luis-p-500.png 500w, images/Luis.png 690w" sizes="(max-width: 479px) 100vw, 303px" alt className="af-class-image-15" /></div>
+                    <div className="af-class-div-block-13"><img src="images/Luis.png" width={303} srcSet="images/Luis-p-500.png 500w, images/Luis.png 690w" sizes="(max-width: 479px) 100vw, 302.9861145019531px" alt className="af-class-image-15" /></div>
                     <h4 className="af-class-heading-30">Luis Rodriguez</h4>
                     <h4 className="af-class-heading-30">President</h4>
                     <p className="af-class-paragraph-8"><strong>Hello my name is Luis Rodriguez, I am the acting President for LAESA-SHPE here at CCNY. I study electrical engineering along with mathematics and Portuguese. I have been involved in LAESA for the last two years, during which I have grown at a personal, professional and academic level. A lot of really bright-minded people gravitate towards LAESA, many of whom have taught me lessons I would not have otherwise found within the classroom. If I were to start giving shoutouts to the people that have helped develop this would pan out into an essay and not a small paragraph. I would say that my two favorite things to do after school are biking and playing music. Can’t wait to see how LAESA keeps growing as an organization and how It’ll continue to bring people from all types of background into the fold.</strong></p>
@@ -131,7 +131,7 @@ class PcedView extends React.Component {
                     <p className="af-class-paragraph-8"><strong>My name is Richard Martinez and I am this year’s Internal Vice President. I am currently a sophomore studying Electrical Engineering. Something interesting about myself Is that I was previously an electrician and got the opportunity to work in a Union named Local 3. This opportunity helped me realize that I wanted to explore the depths of what an electrician truly does and that was to learn the mathematical methods and not just the technical skills.</strong></p>
                   </div>
                   <div className="w-container">
-                    <div className="af-class-div-block-13"><img src="images/Evan.JPG" width={240} srcSet="images/Evan-p-500.jpeg 500w, images/Evan.JPG 768w" sizes="(max-width: 479px) 100vw, 240px" alt className="af-class-image-15" /></div>
+                    <div className="af-class-div-block-13"><img src="images/Evan.JPG" width={240} srcSet="images/Evan-p-500.jpeg 500w, images/Evan.JPG 768w" sizes="(max-width: 479px) 100vw, 240.00001525878906px" alt className="af-class-image-15" /></div>
                     <h4 className="af-class-heading-30">Evan Vazquez</h4>
                     <h4 className="af-class-heading-30">External Vice President</h4>
                     <p className="af-class-paragraph-8"><strong>Hello everyone, my name is Evan Vasquez and I am this year’s External Vice President. I am a Senior studying Computer Science with a minor in Mathematics, I am excited to have this opportunity and finally give back to the chapter that gave me so much throughout my years as a member. Fun fact about me , I am the undefeated chess champion of LAESA.</strong></p>
@@ -143,7 +143,7 @@ class PcedView extends React.Component {
                     <p className="af-class-paragraph-8"><strong>My name is Gloria Hernandez Navarrete and I am a fourth-year civil engineering student at the City College of New York. I am on the Executive Board of LAESA-SHPE as secretary for the 2019-2020 academic school year. I can proudly say that thanks to the sacrifices of my parents and those before me, I am pursuing my childhood dreams. Education is a basic human right that no individual should be denied. A lot is to come this year for our team, but I am looking forward to it all!</strong></p>
                   </div>
                   <div className="w-container">
-                    <div className="af-class-div-block-13"><img src="images/Keivon.jpg" width={303} srcSet="images/Keivon-p-500.jpeg 500w, images/Keivon-p-800.jpeg 800w, images/Keivon.jpg 1052w" sizes="(max-width: 479px) 100vw, 303px" alt className="af-class-image-15" /></div>
+                    <div className="af-class-div-block-13"><img src="images/Keivon.jpg" width={303} srcSet="images/Keivon-p-500.jpeg 500w, images/Keivon-p-800.jpeg 800w, images/Keivon.jpg 1052w" sizes="(max-width: 479px) 100vw, 302.9861145019531px" alt className="af-class-image-15" /></div>
                     <h4 className="af-class-heading-30">Keivon Yang</h4>
                     <h4 className="af-class-heading-30">Treasurer</h4>
                     <p className="af-class-paragraph-8"><strong>Currently, I am a Sophomore Electrical Engineering major. I have had the privilege of being recognized as someone despite the difference in the background but as a member of the amazing Familia of LAESA. Despite my time with LAESA I have committed to multiple positions and found the value of being an active member of this organization. I am a firm believer that everyone who I have met or encountered, no matter how brief, has had an impact on my life and helped in my search of the ideal version of myself for better or for worse.</strong></p>
@@ -151,7 +151,7 @@ class PcedView extends React.Component {
                 </div>
                 <div className="af-class-eboard-18-19 w-slide">
                   <div className="af-class-container-4 w-container">
-                    <h2 className="af-class-heading-31">Executive Board 2018 - 2019</h2>
+                    <h2 className="af-class-main-heading">Executive Board 2018 - 2019</h2>
                   </div>
                   <div className="w-container">
                     <div className="af-class-div-block-13"><img src="images/Rafa.png" width={303} alt className="af-class-image-15" /></div>
@@ -166,13 +166,13 @@ class PcedView extends React.Component {
                     <p className="af-class-paragraph-8"><strong>My name is Valentin Martinez a Civil Engineering Graduate 19’ with a focus on Structural Engineering. I’ve been involved with LAESA-SHPE since my sophomore year and have held multiple positions within the organization: FIRST Lego League Director 17’ and, SHPE Jr. Director 17’. LAESA-SHPE changes lives by impacting and influencing the Hispanic community, and building you up to become a professional leader. And, I’ve had the privilege to be part of this movement #SHPE4LIFE</strong></p>
                   </div>
                   <div className="w-container">
-                    <div className="af-class-div-block-13"><img src="images/Arelis.png" width={240} srcSet="images/Arelis-p-500.png 500w, images/Arelis.png 577w" sizes="(max-width: 479px) 100vw, 240px" alt className="af-class-image-15" /></div>
+                    <div className="af-class-div-block-13"><img src="images/Arelis.png" width={240} srcSet="images/Arelis-p-500.png 500w, images/Arelis.png 577w" sizes="(max-width: 479px) 100vw, 240.00001525878906px" alt className="af-class-image-15" /></div>
                     <h4 className="af-class-heading-30">Arelis Fienco</h4>
                     <h4 className="af-class-heading-30">External Vice President</h4>
                     <p className="af-class-paragraph-8"><strong>I was born and raised in Guayaquil, Ecuador. I have been part of LAESA-SHPE since my freshman year in 2016 at The City College of New York. I started fulfilling SHPE's mission by starting with SHPE Jr. and directing Noche de Ciencias at Manhattan Bridges High School in April 2017. The following academic year, I became part of the PCED 2018 team by creating a meaningful project along with my team that exposed high school students to leadership and real-life experiences.</strong></p>
                   </div>
                   <div className="w-container">
-                    <div className="af-class-div-block-13"><img src="images/Kayley.jpg" width={303} srcSet="images/Kayley-p-500.jpeg 500w, images/Kayley-p-800.jpeg 800w, images/Kayley-p-1080.jpeg 1080w, images/Kayley-p-1600.jpeg 1600w, images/Kayley.jpg 2000w" sizes="(max-width: 479px) 100vw, 303px" alt className="af-class-image-15" /></div>
+                    <div className="af-class-div-block-13"><img src="images/Kayley.jpg" width={303} srcSet="images/Kayley-p-500.jpeg 500w, images/Kayley-p-800.jpeg 800w, images/Kayley-p-1080.jpeg 1080w, images/Kayley-p-1600.jpeg 1600w, images/Kayley.jpg 2000w" sizes="(max-width: 479px) 100vw, 302.9861145019531px" alt className="af-class-image-15" /></div>
                     <h4 className="af-class-heading-30">Kayley Arias</h4>
                     <h4 className="af-class-heading-30">Secretary</h4>
                     <p className="af-class-paragraph-8"><strong>Hi my name is Kayley Arias and I am a senior majoring in chemical engineering. I joined LAESA-SHPE in my second year in college. Upon joining this organization, I volunteered at numerous events and obtained various leadership position. I had the opportunity to speak to high school students, middle school students, and their parents about SHPE, college, and what a career in engineering entails. This organization has provided me with mentors, scholarships, and has helped me acquire the professional skills to land internships and full-time opportunities. LAESA-SHPE has taught me so much which is why I continue to be actively involved to make sure that others acquire the resources and skills they need to become successful professionals. I will continue to be actively involved even after I graduate.</strong></p>
@@ -193,7 +193,7 @@ class PcedView extends React.Component {
               </div>
               <div className="af-class-slide-nav-5 w-slider-nav w-round" />
             </div>
-            <div className="af-class-footer"><img src="images/SHPE_logo_FullColor.png" width={345} alt className="af-class-image-9" />
+            <div className="af-class-footer"><img src="images/SHPE_logo_horiz_City-College_CMYK.png" width={345} srcSet="images/SHPE_logo_horiz_City-College_CMYK-p-800.png 800w, images/SHPE_logo_horiz_City-College_CMYK-p-1080.png 1080w, images/SHPE_logo_horiz_City-College_CMYK-p-1600.png 1600w, images/SHPE_logo_horiz_City-College_CMYK-p-2000.png 2000w, images/SHPE_logo_horiz_City-College_CMYK.png 3781w" sizes="(max-width: 767px) 100vw, 530px" alt className="af-class-shpe-logo" />
               <div className="af-class-wrap">
                 <div className="af-class-footer-list"><a href="#" className="af-class-footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" className="af-class-footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" className="af-class-footer-link">Facebook</a><a href="#" className="af-class-footer-link">LinkedIn</a><a href="image-license-info.html" className="af-class-footer-link">Image License Info</a><a href="http://webflow.com" className="af-class-footer-link">Powered by Webflow</a></div>
               </div>
