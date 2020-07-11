@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class MemberLoginView extends React.Component {
+class MemberFormView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/MemberLoginController')
+      Controller = require('../controllers/MemberFormController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = MemberLoginView
+        Controller = MemberFormView
 
         return Controller
       }
@@ -45,7 +45,7 @@ class MemberLoginView extends React.Component {
   }
 
   render() {
-    const proxies = Controller !== MemberLoginView ? transformProxies(this.props.children) : {
+    const proxies = Controller !== MemberFormView ? transformProxies(this.props.children) : {
       'username': [],
       'password': [],
     }
@@ -65,6 +65,6 @@ class MemberLoginView extends React.Component {
   }
 }
 
-export default MemberLoginView
+export default MemberFormView
 
 /* eslint-enable */

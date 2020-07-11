@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export { default as MemberLoginView } from './MemberLoginView'
+export { default as MemberFormView } from './MemberFormView'
 export { default as RegisterView } from './RegisterView'
 export { default as UnauthorizedView } from './UnauthorizedView'
 export { default as NotFoundView } from './NotFoundView'
