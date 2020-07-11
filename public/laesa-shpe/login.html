@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jul 09 2020 22:19:10 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Jul 11 2020 01:50:57 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5efe3f3155a732987ab47a8c" data-wf-site="5ee2db0a9ed06b47877b408e">
 <head>
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
-<body>
+<body class="body-3">
   <header id="nav" class="sticky-nav-2">
     <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" role="banner" class="nav w-nav">
       <div class="nav-inner">
@@ -34,7 +34,7 @@
     </div>
   </header>
   <div class="w-form">
-    <form id="email-form" name="email-form" data-name="Email Form" laesa-socket="Login" class="form-4"><label for="Username">Username</label><input type="email" class="w-input" maxlength="256" name="Username" data-name="Username" placeholder="" id="Username" required=""><label for="email">Password</label><input type="password" class="w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="password" required=""><input type="submit" value="Login" data-wait="Please wait..." class="w-button"></form>
+    <form id="email-form" name="email-form" data-name="Email Form" af-el="Login" af-sock="login" class="form-4"><label for="Username">Username</label><input type="email" class="w-input" maxlength="256" name="Username" af-sock="email" data-name="Username" placeholder="" id="Username" required=""><label for="email">Password</label><input type="password" class="w-input" maxlength="256" name="email" af-sock="password" data-name="Email" placeholder="" id="password" required=""><input type="submit" value="Login" data-wait="Please wait..." class="w-button"></form>
     <div class="w-form-done">
       <div>Thank you! Your submission has been received!</div>
     </div>
@@ -42,6 +42,11 @@
       <div>Oops! Something went wrong while submitting the form.</div>
     </div>
   </div><a href="make-account.html" class="button-2 w-button">Make Account</a>
+  <div class="footer"><img src="images/SHPE_logo_horiz_City-College_CMYK.png" width="547" srcset="images/SHPE_logo_horiz_City-College_CMYK-p-800.png 800w, images/SHPE_logo_horiz_City-College_CMYK-p-1080.png 1080w, images/SHPE_logo_horiz_City-College_CMYK-p-1600.png 1600w, images/SHPE_logo_horiz_City-College_CMYK-p-2000.png 2000w, images/SHPE_logo_horiz_City-College_CMYK.png 3781w" sizes="(max-width: 479px) 55vw, (max-width: 767px) 43vw, 48vw" alt="" class="shpe-logo">
+    <div class="wrap">
+      <div class="footer-list"><a href="#" class="footer-link">Email</a><a href="https://www.instagram.com/laesa_shpe/" target="_blank" class="footer-link">Instagram</a><a href="https://www.facebook.com/LaesaShpe/" target="_blank" class="footer-link">Facebook</a><a href="#" class="footer-link">LinkedIn</a><a href="image-license-info.html" class="footer-link">Image License Info</a><a href="http://webflow.com" class="footer-link">Powered by Webflow</a></div>
+    </div>
+  </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ee2db0a9ed06b47877b408e" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
