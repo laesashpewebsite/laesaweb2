@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import LoginView from './LoginView'
+import MemberLoginView from './MemberLoginView'
 
 const scripts = [
   fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ee2db0a9ed06b47877b408e").then(body => body.text()),
@@ -48,7 +48,7 @@ class LoginView extends React.Component {
 
   render() {
     const proxies = Controller !== LoginView ? transformProxies(this.props.children) : {
-      'login': [],
+      'member-login': [],
     }
 
     return (
@@ -74,7 +74,7 @@ class LoginView extends React.Component {
               </div>
             </header>
             <div className="w-form">
-              <LoginView.Controller-af-sock-login />
+              <MemberLoginView.Controller-af-sock-member-login />
               <div className="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
