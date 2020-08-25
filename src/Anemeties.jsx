@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Events from "./Events";
+import Points from './Points';
+import Scholarhip from './Scholarship';
 
 export default class Anemeties extends Component {
     constructor(props) {
@@ -15,12 +17,12 @@ export default class Anemeties extends Component {
     }
     pageArea = () => {
         if (this.state.control === 1) {
-            return <Events />
+            return <Scholarhip />
         }
         if (this.state.control === 2) {
-            return
+            return <Events />
         } if (this.state.control === 3) {
-            return
+            return <Points />
         }
     }
 

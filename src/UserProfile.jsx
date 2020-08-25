@@ -7,10 +7,10 @@ export default class UserProfile extends Component {
                 <img src={Kermit} />
                 <h2>Kermit the Frog</h2>
                 <ul>
-                    <li>Points: </li>
-                    <li> Membership: </li>
-                    <li>Position: </li> {/*hide if no position*/}
-                    <p>BIO: </p>
+                    <li>Points: 420 </li>
+                    <li> Membership: On House Arrest </li>
+                    <li>Position: Has The High Ground </li> {/*hide if no position*/}
+                    <p>BIO: Please Be My Friend </p>
                 </ul>
             </div>
         )

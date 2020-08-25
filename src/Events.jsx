@@ -9,7 +9,7 @@ export default class Events extends Component {
                     <img src={TriviaNight} className="event-picture" />
                     <ul>
                         <h2>KAHOOT</h2>
-                        <li>INSERT DATE HERE</li>
+                        <li>Date: INSERT DATE HERE</li>
                         {/* needs a date for events */}
                         <li> Location: INSERT LOCATION HERE</li>
                         <li>Points: INSERT POINT HERE</li>
