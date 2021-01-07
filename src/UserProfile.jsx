@@ -4,8 +4,8 @@ export default class UserProfile extends Component {
     render() {
         return (
             <div className="UserProfile">
-                <img src={Kermit} />
-                <h2>Kermit the Frog</h2>
+                <img src={Kermit} className="user-image"/>
+                <h2 className="username">Kermit the Frog</h2>
                 <ul>
                     <li>Points: 420 </li>
                     <li> Membership: On House Arrest </li>

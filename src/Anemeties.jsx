@@ -17,10 +17,10 @@ export default class Anemeties extends Component {
     }
     pageArea = () => {
         if (this.state.control === 1) {
-            return <Scholarhip />
+            return <Events />
         }
         if (this.state.control === 2) {
-            return <Events />
+            return <Scholarhip />
         } if (this.state.control === 3) {
             return <Points />
         }
@@ -29,10 +29,27 @@ export default class Anemeties extends Component {
     render() {
         return (
             <div className="Anemeties">
+                <div className="nav">
                 {/* Nav Bar */}
-                <button onClick={() => this.NavOnClick(1)}>Scholarship</button>
-                <button onClick={() => this.NavOnClick(2)}>Events</button>
-                <button onClick={() => this.NavOnClick(3)}>Points</button>
+                <button 
+                className="nav-bar"
+                onClick={() => this.NavOnClick(1)}
+                >
+                    Events
+                </button>
+                <button 
+                className="nav-bar"
+                onClick={() => this.NavOnClick(2)}
+                >
+                    Opportunities
+                </button>
+                <button 
+                className="nav-bar"
+                onClick={() => this.NavOnClick(3)}
+                >
+                    Points
+                </button>
+            </div>
                 {this.pageArea()}
             </div>
         )
